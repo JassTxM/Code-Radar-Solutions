@@ -9,7 +9,7 @@ int main(){
         printf("Digit");
     }
     else if (a >= 'A' && a>= 'Z'  || a>= 'a' && a<='z'){
-        char l = (a>= 'A'&& a<= 'Z')?a+32:a;
+        char l = (a>= 'A'&& a<= 'Z')? a + 32 : a;
         if (l == 'a'|| l== 'e' || l=='o' || l=='i' || l=='u'){
             printf("Vowel");
         }else{
