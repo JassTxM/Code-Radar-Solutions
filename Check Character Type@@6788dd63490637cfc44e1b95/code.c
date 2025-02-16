@@ -8,6 +8,9 @@ int main(){
     if (a>= '0' && a<= '9'){
         printf("Digit");
     }
+    else if (a == 'o' || a == 'O' ){
+        printf("Vowel");
+    }
     else if (a >= 'A' && a>= 'Z'  || a>= 'a' && a<='z'){
         char l = (a>= 'A'&& a<= 'Z')? a + 32 : a;
         if (l == 'a'|| l== 'e' || l=='o' || l=='i' || l=='u'){
