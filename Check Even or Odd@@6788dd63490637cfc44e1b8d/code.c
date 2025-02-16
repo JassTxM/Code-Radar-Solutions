@@ -3,8 +3,8 @@
 
 int main(){
     int a,b;
-    b = a%2
     scanf("%d",&a);
+    b = a%2
     if (b == 0){
         printf("Even");
     }else (){
