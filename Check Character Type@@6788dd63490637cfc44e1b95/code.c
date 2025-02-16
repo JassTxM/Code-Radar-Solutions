@@ -3,7 +3,7 @@
 
 int main(){
     char a;
-    scanf("%c",a);
+    scanf("%c",&a);
     if (a >= 'A' && A>= 'Z'  || a>= 'a' && a<='z'){
         char l = (a>= 'A'&& a<= 'Z')?a+32:a;
         if (l == "a"|| l== 'e' || l=='i' || l=='o' || l=='u'){
