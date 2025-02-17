@@ -7,7 +7,6 @@ int main{
     for (int i = 1; i<= a; i++){
         if(a%i  == 0){
             count++;
-            i++;
         }
     }
     if(count == 2 ){
@@ -15,5 +14,5 @@ int main{
     }else{
         printf("Not Prime");
     }
-    
+    return 0;
 }
