@@ -11,13 +11,18 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
+    for (int i = 0;i<n; i++){
+        visit[i] = 0;
+    }
+
     for (int i = 0 ; i<n ; i++){
         if (visit[i] == 1){
             continue;
         }
+
         count = 1;
         for (int j = i+1 ; j< n ; j++){
-            if (arr[j] == arr[j+1]){
+            if (arr[i] == arr[j]){
                 count++;
                 visit[j] = 1;
 
