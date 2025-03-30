@@ -21,7 +21,7 @@ int main(){
         if (i<n-1 && arr[i] == arr[i+1]){
             count++;
             visit[i] = 1;
-        }else {
+        }else if(visit[i] == arr[i]) {
             printf("%d %d\n", arr[i],count);
             count = 1;
         }
