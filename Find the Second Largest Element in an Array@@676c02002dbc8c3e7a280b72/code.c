@@ -13,6 +13,7 @@ int main(){
     for (int i=0;i<n;i++){
         if (n<2){
             printf("%d",j);
+        }
         else if (arr[i]>0 && max < arr[i]){
             max = arr[i-1];
         }else{
