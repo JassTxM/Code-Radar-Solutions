@@ -5,9 +5,9 @@ int main(){
     int n,max;
     scanf("%d",&n);
     int arr[n];
-    int j = "-1";
+    char j = "-1";
     if (n<2){
-        printf("%d",j);
+        printf("%c",j);
         }
     
     for(int i=0;i<n;i++){
