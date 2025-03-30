@@ -11,11 +11,10 @@ int main(){
     }
 
     for (int i = 0 ; i< n ; i++){
-        if (arr[i] == arr[i]){
+        if (arr[i] == arr[i+1]){
             count++;
         }
-        
+        printf("%d %d", arr[i],count);
     }
-    printf("%d %d", arr[i],count);
     count = 0;
 }
