@@ -8,7 +8,7 @@ int main(){
     int arr[n];
 
     for (int i = 0; i<n ; i++){
-        scanf("%d",&arr[n]);
+        scanf("%d",&arr[i]);
     }
 
     for (int i = 0 ; i<n ; i++){
@@ -18,8 +18,7 @@ int main(){
 
         if(arr[i]%2 == 0){
             ecount++;
-        }
-        else{
+        }else{
             ocount++;
         }
     }
