@@ -7,7 +7,7 @@ int main(){
     int arr[n];
     int j = -1;
     if (n<2){
-        printf("%d",j);
+        printf("%d",-1);
         }
     
     for(int i=0;i<n;i++){
