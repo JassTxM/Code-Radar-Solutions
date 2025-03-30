@@ -14,10 +14,8 @@ int main(){
         if (n<2){
             printf("%d",j);
         }
-        else if (arr[i]>0 && max < arr[i]){
+        else if (max < arr[i]){
             max = arr[i-1];
-        }else{
-            printf("%d",-1);
         }
     }
     
