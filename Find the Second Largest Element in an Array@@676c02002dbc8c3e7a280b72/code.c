@@ -5,6 +5,9 @@ int main(){
     int n,max;
     scanf("%d",&n);
     int arr[n];
+
+    max = arr[0];
+    
     int j = -1;
     if (n<2){
         printf("%d",-1);
