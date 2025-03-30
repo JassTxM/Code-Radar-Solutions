@@ -2,16 +2,17 @@
 # include <stdio.h>
 
 int main(){
-    int n,arr[n];
+    int n;
     scanf("%d",&n);
-    for (int i; i<n;i++){
+    int arr[10];
+    for (int i = 0; i<n;i++){
         scanf("%d",&arr[i]);
     }
 
     int max = arr[0];
     int min = arr[0];
 
-    for (int i; i<n;i++){
+    for (int i = 0; i<n;i++){
 
         if (max < arr[i]){
           max = arr[i];
