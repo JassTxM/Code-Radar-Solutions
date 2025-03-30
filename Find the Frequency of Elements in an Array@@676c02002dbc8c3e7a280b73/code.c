@@ -15,15 +15,15 @@ int main(){
         if (visit[i] == 1){
             continue;
         }
-    count = 1;
-    for (int j = 0 ; j< n ; j++){
-        if (j<n-1 && arr[j] == arr[j+1]){
-            count++;
-            visit[j] = 1;
+        count = 1;
+        for (int j = i+1 ; j< n ; j++){
+            if (arr[j] == arr[j+1]){
+                count++;
+                visit[j] = 1;
 
+                }
             }
-        }
-    printf("%d %d\n",arr[i],count);
+        printf("%d %d\n",arr[i],count);
     }
 
 }
