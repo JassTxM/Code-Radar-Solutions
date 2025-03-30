@@ -11,9 +11,13 @@ int main(){
     }
 
     for (int i=0;i<n;i++){
-        if (max < arr[i]){
+        if (arr[i]>0 && max < arr[i]){
             max = arr[i-1];
-        }    
+        }else if (arr[i]<0 && max>arr[i]){
+            max = arr[i-1];
+        }else{
+            printf("%d",-1);
+        }
     }
     
     printf("%d",max);
